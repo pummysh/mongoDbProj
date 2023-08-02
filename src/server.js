@@ -1,8 +1,5 @@
-const app=require('./index');
+const app=require('./api');
 
-const connect=require("./configs/db");
-
-app.listen(2345,async()=>{
-    await connect();
-    console.log("listening on server 2345");
+app.listen(3300,()=>{
+    console.log("listening on port 3300")
 })

@@ -1,4 +1,4 @@
-const Users=require("./../models/user.models");
+const Users=require("../models/user.models");
 
 class userService{
     async getUsers(){
